@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0755B40324EBBBFB00E89A7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755B40224EBBBFB00E89A7F /* AppDelegate.swift */; };
 		0755B40524EBBBFB00E89A7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755B40424EBBBFB00E89A7F /* SceneDelegate.swift */; };
-		0755B40724EBBBFB00E89A7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755B40624EBBBFB00E89A7F /* ViewController.swift */; };
-		0755B40A24EBBBFB00E89A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0755B40824EBBBFB00E89A7F /* Main.storyboard */; };
 		0755B40C24EBBBFD00E89A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0755B40B24EBBBFD00E89A7F /* Assets.xcassets */; };
 		0755B40F24EBBBFD00E89A7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0755B40D24EBBBFD00E89A7F /* LaunchScreen.storyboard */; };
+		0755B41724EBBDAA00E89A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0755B41624EBBDAA00E89A7F /* Main.storyboard */; };
+		0755B41F24EBBDEC00E89A7F /* PickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755B41924EBBDEA00E89A7F /* PickerTextField.swift */; };
+		0755B42024EBBDEC00E89A7F /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755B41A24EBBDEB00E89A7F /* UITextField+fixCaretPosition.swift */; };
+		0755B42124EBBDEC00E89A7F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755B41B24EBBDEB00E89A7F /* UIViewExtension.swift */; };
+		0755B42224EBBDEC00E89A7F /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755B41C24EBBDEB00E89A7F /* SkyFloatingLabelTextField.swift */; };
+		0755B42324EBBDEC00E89A7F /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755B41D24EBBDEC00E89A7F /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		0755B42424EBBDEC00E89A7F /* CommonUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755B41E24EBBDEC00E89A7F /* CommonUtilities.swift */; };
+		0755B42624EBBDFD00E89A7F /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755B42524EBBDFD00E89A7F /* OTPViewController.swift */; };
+		0755B42824EBBE1100E89A7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755B42724EBBE1100E89A7F /* AppDelegate.swift */; };
+		0755B43024EBBE9200E89A7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0755B42F24EBBE9200E89A7F /* ViewController.swift */; };
+		0796871524EBBEEE00B08E19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0796871424EBBEEE00B08E19 /* GoogleService-Info.plist */; };
+		0796871A24EBBF0400B08E19 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796871624EBBF0200B08E19 /* SuccessViewController.swift */; };
+		0796871B24EBBF0400B08E19 /* sucess.json in Resources */ = {isa = PBXBuildFile; fileRef = 0796871724EBBF0300B08E19 /* sucess.json */; };
+		0796871C24EBBF0400B08E19 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796871824EBBF0300B08E19 /* HomeViewController.swift */; };
+		0796871D24EBBF0400B08E19 /* successful-check.json in Resources */ = {isa = PBXBuildFile; fileRef = 0796871924EBBF0400B08E19 /* successful-check.json */; };
+		3BE5DCA08B67279AC233FE0B /* Pods_Firebase_Phone_Authentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD05C5F80EE8A8A3F220866B /* Pods_Firebase_Phone_Authentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0755B3FF24EBBBFB00E89A7F /* Firebase_Phone_Authentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firebase_Phone_Authentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0755B40224EBBBFB00E89A7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0755B40424EBBBFB00E89A7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0755B40624EBBBFB00E89A7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0755B40924EBBBFB00E89A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0755B40B24EBBBFD00E89A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0755B40E24EBBBFD00E89A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0755B41024EBBBFD00E89A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0755B41624EBBDAA00E89A7F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0755B41924EBBDEA00E89A7F /* PickerTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerTextField.swift; sourceTree = "<group>"; };
+		0755B41A24EBBDEB00E89A7F /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		0755B41B24EBBDEB00E89A7F /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		0755B41C24EBBDEB00E89A7F /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		0755B41D24EBBDEC00E89A7F /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		0755B41E24EBBDEC00E89A7F /* CommonUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtilities.swift; sourceTree = "<group>"; };
+		0755B42524EBBDFD00E89A7F /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		0755B42724EBBE1100E89A7F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0755B42F24EBBE9200E89A7F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0796871424EBBEEE00B08E19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0796871624EBBF0200B08E19 /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		0796871724EBBF0300B08E19 /* sucess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sucess.json; sourceTree = "<group>"; };
+		0796871824EBBF0300B08E19 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0796871924EBBF0400B08E19 /* successful-check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "successful-check.json"; sourceTree = "<group>"; };
+		1FCE892EF1A77412223ADB52 /* Pods-Firebase_Phone_Authentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase_Phone_Authentication.release.xcconfig"; path = "Target Support Files/Pods-Firebase_Phone_Authentication/Pods-Firebase_Phone_Authentication.release.xcconfig"; sourceTree = "<group>"; };
+		CD05C5F80EE8A8A3F220866B /* Pods_Firebase_Phone_Authentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Phone_Authentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E5E22E32A8EC76DC3C08D0 /* Pods-Firebase_Phone_Authentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase_Phone_Authentication.debug.xcconfig"; path = "Target Support Files/Pods-Firebase_Phone_Authentication/Pods-Firebase_Phone_Authentication.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE5DCA08B67279AC233FE0B /* Pods_Firebase_Phone_Authentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +71,8 @@
 			children = (
 				0755B40124EBBBFB00E89A7F /* Firebase_Phone_Authentication */,
 				0755B40024EBBBFB00E89A7F /* Products */,
+				A8EF9AA955C9976656CA7CD0 /* Pods */,
+				C26995D737CA98DE36943127 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,52 @@
 		0755B40124EBBBFB00E89A7F /* Firebase_Phone_Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				0755B40224EBBBFB00E89A7F /* AppDelegate.swift */,
+				0755B41824EBBDBE00E89A7F /* SupportingClass */,
 				0755B40424EBBBFB00E89A7F /* SceneDelegate.swift */,
-				0755B40624EBBBFB00E89A7F /* ViewController.swift */,
-				0755B40824EBBBFB00E89A7F /* Main.storyboard */,
+				0755B42524EBBDFD00E89A7F /* OTPViewController.swift */,
+				0755B42F24EBBE9200E89A7F /* ViewController.swift */,
+				0755B42724EBBE1100E89A7F /* AppDelegate.swift */,
 				0755B40B24EBBBFD00E89A7F /* Assets.xcassets */,
+				0796871824EBBF0300B08E19 /* HomeViewController.swift */,
+				0796871924EBBF0400B08E19 /* successful-check.json */,
+				0796871624EBBF0200B08E19 /* SuccessViewController.swift */,
+				0796871724EBBF0300B08E19 /* sucess.json */,
+				0755B41624EBBDAA00E89A7F /* Main.storyboard */,
 				0755B40D24EBBBFD00E89A7F /* LaunchScreen.storyboard */,
 				0755B41024EBBBFD00E89A7F /* Info.plist */,
+				0796871424EBBEEE00B08E19 /* GoogleService-Info.plist */,
 			);
 			path = Firebase_Phone_Authentication;
+			sourceTree = "<group>";
+		};
+		0755B41824EBBDBE00E89A7F /* SupportingClass */ = {
+			isa = PBXGroup;
+			children = (
+				0755B41E24EBBDEC00E89A7F /* CommonUtilities.swift */,
+				0755B41924EBBDEA00E89A7F /* PickerTextField.swift */,
+				0755B41C24EBBDEB00E89A7F /* SkyFloatingLabelTextField.swift */,
+				0755B41D24EBBDEC00E89A7F /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				0755B41A24EBBDEB00E89A7F /* UITextField+fixCaretPosition.swift */,
+				0755B41B24EBBDEB00E89A7F /* UIViewExtension.swift */,
+			);
+			path = SupportingClass;
+			sourceTree = "<group>";
+		};
+		A8EF9AA955C9976656CA7CD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3E5E22E32A8EC76DC3C08D0 /* Pods-Firebase_Phone_Authentication.debug.xcconfig */,
+				1FCE892EF1A77412223ADB52 /* Pods-Firebase_Phone_Authentication.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C26995D737CA98DE36943127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD05C5F80EE8A8A3F220866B /* Pods_Firebase_Phone_Authentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0755B41324EBBBFD00E89A7F /* Build configuration list for PBXNativeTarget "Firebase_Phone_Authentication" */;
 			buildPhases = (
+				BFBD243252F0F247A24C5B5F /* [CP] Check Pods Manifest.lock */,
 				0755B3FB24EBBBFB00E89A7F /* Sources */,
 				0755B3FC24EBBBFB00E89A7F /* Frameworks */,
 				0755B3FD24EBBBFB00E89A7F /* Resources */,
+				B7D7C5E0811387804E34B57E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +195,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0755B41724EBBDAA00E89A7F /* Main.storyboard in Resources */,
+				0796871524EBBEEE00B08E19 /* GoogleService-Info.plist in Resources */,
+				0796871D24EBBF0400B08E19 /* successful-check.json in Resources */,
 				0755B40F24EBBBFD00E89A7F /* LaunchScreen.storyboard in Resources */,
 				0755B40C24EBBBFD00E89A7F /* Assets.xcassets in Resources */,
-				0755B40A24EBBBFB00E89A7F /* Main.storyboard in Resources */,
+				0796871B24EBBF0400B08E19 /* sucess.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B7D7C5E0811387804E34B57E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase_Phone_Authentication/Pods-Firebase_Phone_Authentication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase_Phone_Authentication/Pods-Firebase_Phone_Authentication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase_Phone_Authentication/Pods-Firebase_Phone_Authentication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFBD243252F0F247A24C5B5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase_Phone_Authentication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0755B3FB24EBBBFB00E89A7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0755B40724EBBBFB00E89A7F /* ViewController.swift in Sources */,
-				0755B40324EBBBFB00E89A7F /* AppDelegate.swift in Sources */,
+				0755B43024EBBE9200E89A7F /* ViewController.swift in Sources */,
+				0755B42624EBBDFD00E89A7F /* OTPViewController.swift in Sources */,
+				0755B42424EBBDEC00E89A7F /* CommonUtilities.swift in Sources */,
+				0796871A24EBBF0400B08E19 /* SuccessViewController.swift in Sources */,
+				0755B42124EBBDEC00E89A7F /* UIViewExtension.swift in Sources */,
+				0755B42024EBBDEC00E89A7F /* UITextField+fixCaretPosition.swift in Sources */,
+				0755B42324EBBDEC00E89A7F /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
 				0755B40524EBBBFB00E89A7F /* SceneDelegate.swift in Sources */,
+				0755B42224EBBDEC00E89A7F /* SkyFloatingLabelTextField.swift in Sources */,
+				0755B42824EBBE1100E89A7F /* AppDelegate.swift in Sources */,
+				0755B41F24EBBDEC00E89A7F /* PickerTextField.swift in Sources */,
+				0796871C24EBBF0400B08E19 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0755B40824EBBBFB00E89A7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0755B40924EBBBFB00E89A7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0755B40D24EBBBFD00E89A7F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,16 +398,20 @@
 		};
 		0755B41424EBBBFD00E89A7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E5E22E32A8EC76DC3C08D0 /* Pods-Firebase_Phone_Authentication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BN23SZEKV6;
 				INFOPLIST_FILE = Firebase_Phone_Authentication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Danish.Firebase-Phone-Authentication";
+				PRODUCT_BUNDLE_IDENTIFIER = com.authDemo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = AuthDemo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,16 +419,20 @@
 		};
 		0755B41524EBBBFD00E89A7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FCE892EF1A77412223ADB52 /* Pods-Firebase_Phone_Authentication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BN23SZEKV6;
 				INFOPLIST_FILE = Firebase_Phone_Authentication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Danish.Firebase-Phone-Authentication";
+				PRODUCT_BUNDLE_IDENTIFIER = com.authDemo.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = AuthDemo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

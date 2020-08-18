@@ -1,12 +1,14 @@
 //
 //  AppDelegate.swift
-//  Firebase_Phone_Authentication
+//  FirebasePhoneAuth
 //
-//  Created by Danish Khan on 18/08/20.
+//  Created by Danish Khan on 14/08/20.
 //  Copyright © 2020 Danish Khan. All rights reserved.
 //
 
 import UIKit
+import Firebase
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        //IQKeyboard
+        IQKeyboardManager.shared.enable = true
         return true
     }
 

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CfI-rc-DBq">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="QjX-I6-KU2">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CfI-rc-DBq" customClass="ViewController" customModule="Firebase_Phone_Authentication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hp5-O5-70j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Liy-V7-NsJ">
+                                <rect key="frame" x="80" y="413" width="254" height="45"/>
+                                <color key="backgroundColor" name="ThemeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="SPb-xn-7xY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="22.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                </variation>
+                                <connections>
+                                    <action selector="loginButtonAction:" destination="CfI-rc-DBq" eventType="touchUpInside" id="jKZ-ac-jTJ"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h8G-AU-fIW" customClass="FPNTextField" customModule="FlagPhoneNumber">
+                                <rect key="frame" x="50" y="348" width="314" height="40"/>
+                                <color key="tintColor" name="ThemeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="7Dx-hI-FWU">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="40"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="55"/>
+                                    </constraint>
+                                </constraints>
+                                <color key="textColor" name="blackColor"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" name="blackColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Phone Number"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="Phone Number"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" name="blackColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineHeight">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="selectedLineHeight">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rightPadding">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                        <color key="value" name="blackColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                        <color key="value" name="ThemeColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="disabledColor">
+                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="iconWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="CfI-rc-DBq" id="Ytt-Is-Ipn"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="h8G-AU-fIW" firstAttribute="leading" secondItem="RAU-Ep-x1x" secondAttribute="leading" constant="50" id="5NS-Ck-eqU"/>
+                            <constraint firstItem="h8G-AU-fIW" firstAttribute="centerY" secondItem="Hp5-O5-70j" secondAttribute="centerY" constant="-80" id="7cW-1B-oQ3"/>
+                            <constraint firstItem="Liy-V7-NsJ" firstAttribute="trailing" secondItem="h8G-AU-fIW" secondAttribute="trailing" constant="-30" id="AUF-AM-5Ge"/>
+                            <constraint firstItem="RAU-Ep-x1x" firstAttribute="trailing" secondItem="h8G-AU-fIW" secondAttribute="trailing" constant="50" id="RVg-80-yOU"/>
+                            <constraint firstItem="h8G-AU-fIW" firstAttribute="centerX" secondItem="Hp5-O5-70j" secondAttribute="centerX" id="c7u-4H-OlH"/>
+                            <constraint firstItem="Liy-V7-NsJ" firstAttribute="top" secondItem="h8G-AU-fIW" secondAttribute="bottom" constant="25" id="gre-Vb-WUM"/>
+                            <constraint firstItem="Liy-V7-NsJ" firstAttribute="leading" secondItem="h8G-AU-fIW" secondAttribute="leading" constant="30" id="lOV-gy-MeZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RAU-Ep-x1x"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="background"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <connections>
+                        <outlet property="phoneTextField" destination="h8G-AU-fIW" id="OJg-hy-dVX"/>
+                        <segue destination="UAl-dE-Cuw" kind="show" id="RCo-Ti-8F9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aUM-0a-gFc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2039.1304347826087" y="-657.58928571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tu5-AU-alU">
+            <objects>
+                <viewController storyboardIdentifier="OTPViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UAl-dE-Cuw" customClass="OTPViewController" customModule="Firebase_Phone_Authentication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iwz-Xj-7yj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0do-3N-Rx7">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="otp" translatesAutoresizingMaskIntoConstraints="NO" id="9OW-F7-25h">
+                                        <rect key="frame" x="117" y="40" width="180" height="180"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="9OW-F7-25h" secondAttribute="height" multiplier="1:1" id="S66-i3-e1o"/>
+                                            <constraint firstAttribute="height" constant="180" id="bSi-aL-uht"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OTP sent to: +919690739077" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKL-SX-Ooe">
+                                        <rect key="frame" x="25" y="240" width="364" height="26"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="26" id="L1B-aN-4yy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                                        <color key="textColor" name="blackColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OTP Verification" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAH-Js-Wf1">
+                                        <rect key="frame" x="25" y="270" width="364" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="7R7-ih-vh3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivJ-xf-Npa" customClass="OTPFieldView" customModule="OTPFieldView">
+                                        <rect key="frame" x="0.0" y="305" width="414" height="60"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="GCx-VD-3sp"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YV-Vy-bh5">
+                                        <rect key="frame" x="80" y="385" width="254" height="45"/>
+                                        <color key="backgroundColor" name="ThemeColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="n4G-Ib-77X"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                        <state key="normal" title="Continue">
+                                            <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="22.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="otpButtonTapped:" destination="UAl-dE-Cuw" eventType="touchUpInside" id="BXJ-Wq-dE6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ivJ-xf-Npa" secondAttribute="trailing" id="9sJ-Yg-Pfd"/>
+                                    <constraint firstItem="9OW-F7-25h" firstAttribute="top" secondItem="0do-3N-Rx7" secondAttribute="top" constant="40" id="BFx-7n-sej"/>
+                                    <constraint firstItem="7YV-Vy-bh5" firstAttribute="top" secondItem="ivJ-xf-Npa" secondAttribute="bottom" constant="20" id="PSi-P0-stQ"/>
+                                    <constraint firstItem="JAH-Js-Wf1" firstAttribute="leading" secondItem="CKL-SX-Ooe" secondAttribute="leading" id="WLp-V6-RBl"/>
+                                    <constraint firstAttribute="bottom" secondItem="ivJ-xf-Npa" secondAttribute="bottom" constant="413" id="Wiy-Kw-FJZ"/>
+                                    <constraint firstItem="ivJ-xf-Npa" firstAttribute="leading" secondItem="0do-3N-Rx7" secondAttribute="leading" id="WzK-uT-FhJ"/>
+                                    <constraint firstItem="7YV-Vy-bh5" firstAttribute="leading" secondItem="0do-3N-Rx7" secondAttribute="leading" constant="80" id="Xso-ZZ-fhU"/>
+                                    <constraint firstItem="CKL-SX-Ooe" firstAttribute="leading" secondItem="0do-3N-Rx7" secondAttribute="leading" constant="25" id="ZkP-a6-lMR"/>
+                                    <constraint firstItem="JAH-Js-Wf1" firstAttribute="top" secondItem="CKL-SX-Ooe" secondAttribute="bottom" constant="4" id="bQW-Ie-1YJ"/>
+                                    <constraint firstItem="CKL-SX-Ooe" firstAttribute="centerX" secondItem="9OW-F7-25h" secondAttribute="centerX" id="cah-iJ-Ejq"/>
+                                    <constraint firstItem="ivJ-xf-Npa" firstAttribute="top" secondItem="JAH-Js-Wf1" secondAttribute="bottom" constant="7" id="eEL-XQ-WEE"/>
+                                    <constraint firstItem="9OW-F7-25h" firstAttribute="centerX" secondItem="0do-3N-Rx7" secondAttribute="centerX" id="ex6-tg-Rpo"/>
+                                    <constraint firstAttribute="trailing" secondItem="CKL-SX-Ooe" secondAttribute="trailing" constant="25" id="f1T-dL-54i"/>
+                                    <constraint firstAttribute="trailing" secondItem="7YV-Vy-bh5" secondAttribute="trailing" constant="80" id="hJh-u5-utf"/>
+                                    <constraint firstItem="JAH-Js-Wf1" firstAttribute="trailing" secondItem="CKL-SX-Ooe" secondAttribute="trailing" id="lfA-f3-deK"/>
+                                    <constraint firstItem="CKL-SX-Ooe" firstAttribute="top" secondItem="9OW-F7-25h" secondAttribute="bottom" constant="20" id="lwL-2d-b92"/>
+                                </constraints>
+                            </scrollView>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIZ-pq-3Rz">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Fre-qQ-TH9"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="barTintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" name="ThemeColor"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="OTP" id="Jac-Uu-xAt"/>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backTheme" translatesAutoresizingMaskIntoConstraints="NO" id="Zwd-qq-6KY">
+                                <rect key="frame" x="12" y="54.5" width="23" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Zwd-qq-6KY" secondAttribute="height" multiplier="1:1" id="RyU-Qn-cAN"/>
+                                    <constraint firstAttribute="height" constant="23" id="msK-H0-R9H"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMk-jy-AG8">
+                                <rect key="frame" x="12" y="54.5" width="23" height="23"/>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="UAl-dE-Cuw" eventType="touchUpInside" id="qy7-Nh-arx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZMk-jy-AG8" firstAttribute="trailing" secondItem="Zwd-qq-6KY" secondAttribute="trailing" id="1tp-3U-uWO"/>
+                            <constraint firstItem="0do-3N-Rx7" firstAttribute="leading" secondItem="pif-U9-AA9" secondAttribute="leading" id="22H-gk-7SM"/>
+                            <constraint firstItem="pif-U9-AA9" firstAttribute="trailing" secondItem="0do-3N-Rx7" secondAttribute="trailing" id="Icm-C6-c2c"/>
+                            <constraint firstItem="ZMk-jy-AG8" firstAttribute="leading" secondItem="pif-U9-AA9" secondAttribute="leading" constant="12" id="OGQ-0j-nlZ"/>
+                            <constraint firstItem="pif-U9-AA9" firstAttribute="bottom" secondItem="0do-3N-Rx7" secondAttribute="bottom" id="S6B-P9-ybp"/>
+                            <constraint firstItem="Zwd-qq-6KY" firstAttribute="width" secondItem="Zwd-qq-6KY" secondAttribute="height" multiplier="1:1" id="SUX-ia-3fD"/>
+                            <constraint firstItem="iIZ-pq-3Rz" firstAttribute="trailing" secondItem="pif-U9-AA9" secondAttribute="trailing" id="YIO-p6-liK"/>
+                            <constraint firstItem="iIZ-pq-3Rz" firstAttribute="top" secondItem="pif-U9-AA9" secondAttribute="top" id="bkN-ZY-RWT"/>
+                            <constraint firstItem="ZMk-jy-AG8" firstAttribute="top" secondItem="Zwd-qq-6KY" secondAttribute="top" id="dtz-dm-1R6"/>
+                            <constraint firstItem="ZMk-jy-AG8" firstAttribute="bottom" secondItem="Zwd-qq-6KY" secondAttribute="bottom" id="gU7-0l-IZ4"/>
+                            <constraint firstItem="iIZ-pq-3Rz" firstAttribute="leading" secondItem="pif-U9-AA9" secondAttribute="leading" id="q5l-KG-dg7"/>
+                            <constraint firstItem="ZMk-jy-AG8" firstAttribute="leading" secondItem="Zwd-qq-6KY" secondAttribute="leading" id="qn5-I8-PPO"/>
+                            <constraint firstItem="0do-3N-Rx7" firstAttribute="top" secondItem="iIZ-pq-3Rz" secondAttribute="bottom" id="wgJ-ZV-vxV"/>
+                            <constraint firstItem="Zwd-qq-6KY" firstAttribute="centerY" secondItem="iIZ-pq-3Rz" secondAttribute="centerY" id="xDy-rc-Ey6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pif-U9-AA9"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="X3h-h5-8dB"/>
+                    <connections>
+                        <outlet property="otpLabel" destination="CKL-SX-Ooe" id="cuU-hx-wDB"/>
+                        <outlet property="otpTextFieldView" destination="ivJ-xf-Npa" id="s5q-Ny-FFP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wqh-ys-Viv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-842" y="-658"/>
+        </scene>
+        <!--Success View Controller-->
+        <scene sceneID="qF1-da-oSF">
+            <objects>
+                <viewController storyboardIdentifier="SuccessViewController" id="37U-Do-8oF" customClass="SuccessViewController" customModule="Firebase_Phone_Authentication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8d3-Wx-mac">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVb-3w-fpb" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="successful-check"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="0.34463291952054792" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PVb-3w-fpb" firstAttribute="top" secondItem="Ao8-KO-Kmm" secondAttribute="top" id="FRN-AV-S5A"/>
+                            <constraint firstItem="PVb-3w-fpb" firstAttribute="leading" secondItem="Ao8-KO-Kmm" secondAttribute="leading" id="dbf-hq-0gk"/>
+                            <constraint firstItem="PVb-3w-fpb" firstAttribute="centerX" secondItem="8d3-Wx-mac" secondAttribute="centerX" id="ja8-QR-6iU"/>
+                            <constraint firstItem="PVb-3w-fpb" firstAttribute="bottom" secondItem="Ao8-KO-Kmm" secondAttribute="bottom" id="qFT-BD-Bz4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ao8-KO-Kmm"/>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="PVb-3w-fpb" id="axh-nq-zx8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c99-Sd-sPP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="77" y="-658"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="Wqd-DP-yly">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="XCs-tM-26S" customClass="HomeViewController" customModule="Firebase_Phone_Authentication" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iJi-jY-SQK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkW-1J-n2g">
+                                <rect key="frame" x="50" y="428" width="314" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ho2-ci-3xy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="HkT-PV-J2z" firstAttribute="trailing" secondItem="wkW-1J-n2g" secondAttribute="trailing" constant="50" id="Dt3-LK-pnA"/>
+                            <constraint firstItem="wkW-1J-n2g" firstAttribute="centerX" secondItem="HkT-PV-J2z" secondAttribute="centerX" id="PI2-BT-Wj4"/>
+                            <constraint firstItem="wkW-1J-n2g" firstAttribute="centerY" secondItem="HkT-PV-J2z" secondAttribute="centerY" id="U7i-Ex-Trd"/>
+                            <constraint firstItem="wkW-1J-n2g" firstAttribute="leading" secondItem="HkT-PV-J2z" secondAttribute="leading" constant="50" id="zpt-cu-GvG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HkT-PV-J2z"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1c3-kX-VHc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895.6521739130435" y="-655.58035714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backTheme" width="100" height="100"/>
+        <image name="otp" width="128" height="128"/>
+        <namedColor name="ThemeColor">
+            <color red="0.9179999828338623" green="0.61599999666213989" blue="0.078000001609325409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="blackColor">
+            <color red="0.0" green="0.030999999493360519" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
